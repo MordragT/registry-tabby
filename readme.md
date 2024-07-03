@@ -18,6 +18,8 @@ Completion and Chat models for **Tabby**
 | MordragT/DeepseekCoder-1.3B-Instruct-Q2 | Q2-K | 632MB |
 | MordragT/DeepseekCoder-1.3B-Instruct-Q3 | Q3-K-M | 705MB |
 | MordragT/DeepseekCoder-1.3B-Instruct-Q4 | Q4-K-M | 874MB |
+| MordragT/DeepseekCoder-1.3B-Instruct-Q5 | Q5-K-M | 1GB |
+| MordragT/DeepseekCoder-1.3B-Instruct-Q6 | Q6-K | 1.17GB |
 | MordragT/DeepseekCoder-6.7B-Instruct-IQ1 | IQ1-K-M | 1.65GB |
 | MordragT/DeepseekCoder-6.7B-Instruct-IQ2-XXS | IQ2-K-XXS | 1.86GB |
 | MordragT/DeepseekCoder-6.7B-Instruct-IQ2 | IQ2-K-M | 2.36GB |

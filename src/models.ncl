@@ -284,6 +284,30 @@ in
         sha256 = "04cebb6fafa40ae628cf6bfeb76032ec792852f54020c559ad0a56b9f2839118",
         chat_template = deepseek-chat-template,
       },
+  deepseek-coder-1_3b-instruct-q5 | ChatModelSchema
+    =
+      licenses.deepseek
+      & {
+        name = "DeepseekCoder-1.3B-Instruct-Q5",
+        provider_url = "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct",
+        urls = [
+          "https://huggingface.co/TheBloke/deepseek-coder-1.3b-instruct-GGUF/resolve/main/deepseek-coder-1.3b-instruct.Q5_K_M.gguf"
+        ],
+        sha256 = "d5dcc2a484498b412b8bf5821b0ef2a7ea2e1984b37d15e14344259068d19a31",
+        chat_template = deepseek-chat-template,
+      },
+  deepseek-coder-1_3b-instruct-q6 | ChatModelSchema
+    =
+      licenses.deepseek
+      & {
+        name = "DeepseekCoder-1.3B-Instruct-Q6",
+        provider_url = "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct",
+        urls = [
+          "https://huggingface.co/TheBloke/deepseek-coder-1.3b-instruct-GGUF/resolve/main/deepseek-coder-1.3b-instruct.Q6_K.gguf"
+        ],
+        sha256 = "a2048c5d02d3436719d2f452c3aa19f7f96b29b367ae7bc430a509cd870dcab0",
+        chat_template = deepseek-chat-template,
+      },
   deepseek-coder-6_7b-instruct-iq1 | ChatModelSchema
     =
       licenses.deepseek
