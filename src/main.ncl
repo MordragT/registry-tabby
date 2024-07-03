@@ -10,4 +10,5 @@ let models = import "models.ncl" in
   models.deepseek-coder-5_7b,
   models.deepseek-coder-6_7b,
   models.deepseek-coder-6_7b-instruct,
+  models.deepseek-coder-6_7b-instruct-q3,
 ]

@@ -175,5 +175,17 @@ in
         ],
         sha256 = "92da6238854f2fa902d8b2ad79d548536af1d3ab06821f323bd5bbcea2013276",
         chat_template = deepseek-chat-template,
+      },
+  deepseek-coder-6_7b-instruct-q3 | ChatModelSchema
+    =
+      licenses.deepseek
+      & {
+        name = "DeepseekCoder-6.7B-Instruct-Q3",
+        provider_url = "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+        urls = [
+          "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q3_K_M.gguf"
+        ],
+        sha256 = "6c841fde94b9103c92e875c9ab0ebeeb624b0709b2410c3bd942c80cd635117f",
+        chat_template = deepseek-chat-template,
       }
 }
