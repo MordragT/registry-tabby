@@ -27,6 +27,8 @@ Completion and Chat models for **Tabby**
 
 | Model ID | Quant | Size |
 | -------- | ----- | ---- |
+| MordragT/CodeGemma-2B-Q2 | Q2-K | 1.16GB |
+| MordragT/CodeGemma-2B-Q3 | Q3-K-M | 1.38GB |
 | MordragT/CodeGemma-2B-Q4 | Q4-K-M | 1.63GB |
 | MordragT/CodeGemma-7B-Q4 | Q4-K-M | 5.32GB |
 | MordragT/CodeQwen-7B-Q4 | Q4-K-M | 4.74GB |

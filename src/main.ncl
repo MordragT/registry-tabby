@@ -1,5 +1,7 @@
 let models = import "models.ncl" in
 [
+  models.code-gemma-2b-q2,
+  models.code-gemma-2b-q3,
   models.code-gemma-2b-q4,
   models.code-gemma-7b-q4,
   models.code-gemma-7b-instruct-q4,

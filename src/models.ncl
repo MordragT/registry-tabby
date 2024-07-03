@@ -30,6 +30,30 @@ let deepseek-chat-template = m%"
 "%
 in
 {
+  code-gemma-2b-q2 | CompletionModelSchema
+    =
+      licenses.gemma
+      & {
+        name = "CodeGemma-2B-Q2",
+        provider_url = "https://huggingface.co/google/codegemma-2b",
+        urls = [
+          "https://huggingface.co/bartowski/codegemma-2b-GGUF/resolve/main/codegemma-2b-Q2_K.gguf"
+        ],
+        sha256 = "1b7d4770626049df049be42ee507dca0040f3e7a669f11d7aa3f6d1ce9a4d3c6",
+        prompt_template = "<|fim_prefix|>{prefix}<|fim_suffix|>{suffix}<|fim_middle|>",
+      },
+  code-gemma-2b-q3 | CompletionModelSchema
+    =
+      licenses.gemma
+      & {
+        name = "CodeGemma-2B-Q3",
+        provider_url = "https://huggingface.co/google/codegemma-2b",
+        urls = [
+          "https://huggingface.co/bartowski/codegemma-2b-GGUF/resolve/main/codegemma-2b-Q3_K_M.gguf"
+        ],
+        sha256 = "ba8fd65055d91b6b8722eb3181ec05bc803b8d89488aa473466983ab54331216",
+        prompt_template = "<|fim_prefix|>{prefix}<|fim_suffix|>{suffix}<|fim_middle|>",
+      },
   code-gemma-2b-q4 | CompletionModelSchema
     =
       licenses.gemma

@@ -2,6 +2,28 @@
   {
     "license_name": "Gemma License",
     "license_url": "https://ai.google.dev/gemma/terms",
+    "name": "CodeGemma-2B-Q2",
+    "prompt_template": "<|fim_prefix|>{prefix}<|fim_suffix|>{suffix}<|fim_middle|>",
+    "provider_url": "https://huggingface.co/google/codegemma-2b",
+    "sha256": "1b7d4770626049df049be42ee507dca0040f3e7a669f11d7aa3f6d1ce9a4d3c6",
+    "urls": [
+      "https://huggingface.co/bartowski/codegemma-2b-GGUF/resolve/main/codegemma-2b-Q2_K.gguf"
+    ]
+  },
+  {
+    "license_name": "Gemma License",
+    "license_url": "https://ai.google.dev/gemma/terms",
+    "name": "CodeGemma-2B-Q3",
+    "prompt_template": "<|fim_prefix|>{prefix}<|fim_suffix|>{suffix}<|fim_middle|>",
+    "provider_url": "https://huggingface.co/google/codegemma-2b",
+    "sha256": "ba8fd65055d91b6b8722eb3181ec05bc803b8d89488aa473466983ab54331216",
+    "urls": [
+      "https://huggingface.co/bartowski/codegemma-2b-GGUF/resolve/main/codegemma-2b-Q3_K_M.gguf"
+    ]
+  },
+  {
+    "license_name": "Gemma License",
+    "license_url": "https://ai.google.dev/gemma/terms",
     "name": "CodeGemma-2B-Q4",
     "prompt_template": "<|fim_prefix|>{prefix}<|fim_suffix|>{suffix}<|fim_middle|>",
     "provider_url": "https://huggingface.co/google/codegemma-2b",
