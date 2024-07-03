@@ -1,0 +1,35 @@
+[
+    {
+        "license_name": "Gemma License",
+        "license_url": "https://ai.google.dev/gemma/terms",
+        "prompt_template": "<|fim_prefix|>{prefix}<|fim_suffix|>{suffix}<|fim_middle|>",
+        "name": "CodeGemma-2B",
+        "provider_url": "https://huggingface.co/google/codegemma-2b",
+        "urls": [
+            "https://huggingface.co/bartowski/codegemma-2b-GGUF/resolve/main/codegemma-2b-Q4_K_M.gguf"
+        ],
+        "sha256": "4747caaf4dc51a6e7ad6df5fe26f4c485d847998bd58933eaf011f76e5273c14"
+    },
+    {
+        "license_name": "Gemma License",
+        "license_url": "https://ai.google.dev/gemma/terms",
+        "prompt_template": "<|fim_prefix|>{prefix}<|fim_suffix|>{suffix}<|fim_middle|>",
+        "name": "CodeGemma-7B",
+        "provider_url": "https://huggingface.co/google/codegemma-7b",
+        "urls": [
+            "https://huggingface.co/bartowski/codegemma-7b-GGUF/resolve/main/codegemma-7b-Q4_K_M.gguf"
+        ],
+        "sha256": "5d36c9391069f7c54339a71a52ed8c0bb36219cba621189fc5427d4cdc6c8e5a"
+    },
+    {
+        "license_name": "Gemma License",
+        "license_url": "https://ai.google.dev/gemma/terms",
+        "chat_template": "{% if messages[0]['role'] == 'system' %}{{ raise_exception('System role not supported') }}{% endif %}{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if (message['role'] == 'assistant') %}{% set role = 'model' %}{% else %}{% set role = message['role'] %}{% endif %}{{ '<start_of_turn>' + role + '\n' + message['content'] | trim + '<end_of_turn>\n' }}{% endfor %}{% if add_generation_prompt %}{{'<start_of_turn>model\n'}}{% endif %}",
+        "name": "CodeGemma-7B-Instruct",
+        "provider_url": "https://huggingface.co/google/codegemma-7b-it",
+        "urls": [
+            "https://huggingface.co/bartowski/codegemma-1.1-7b-it-GGUF/resolve/main/codegemma-1.1-7b-it-Q4_K_M.gguf"
+        ],
+        "sha256": "3ef2ef8f041a0d93ffed4f2d261ce3940e8e33ab9c4ab28343012593ff78cc49"
+    }
+]
