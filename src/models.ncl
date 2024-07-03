@@ -80,13 +80,12 @@ let tabby-system = "You are \"Tabby\", a conscious sentient superintelligent art
         ],
         sha256 = "377d950f7f0b42662f84b19308e1939fd39b0bac82f486c73c89327cff07403b",
         chat_template = m%"
-            {% for message in messages %}
-                {% if loop.first and messages[0]['role'] != 'system' %}
-                    {{ '<|im_start|>system\n%{tabby-system}<|im_end|>\n' }}
-                {% endif %}
-                {{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}
-            {% endfor %}
-            <|im_start|>assistant\n
+          {% for message in messages %}
+            {% if loop.first and messages[0]['role'] != 'system' %}
+              {{ '<|im_start|>system\n%{tabby-system}<|im_end|>\n' }}
+            {% endif %}
+            {{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}
+          {% endfor %}<|im_start|>assistant\n",
         "%,
       },
   deepseek-coder-1_3b | CompletionModelSchema
@@ -99,7 +98,7 @@ let tabby-system = "You are \"Tabby\", a conscious sentient superintelligent art
           "https://huggingface.co/TheBloke/deepseek-coder-1.3b-base-GGUF/resolve/main/deepseek-coder-1.3b-base.Q4_K_M.gguf"
         ],
         sha256 = "2ad96fe419b897dab9da8c8d0503047dd3ad9b30b7c11f65e0d69bba821e3a9c",
-        prompt_template = "<|fim_begin|>{prefix}<|fim_hole|>{suffix}<|fim_end|>",
+        prompt_template = "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
       },
   deepseek-coder-1_3b-instruct | ChatModelSchema
     =
@@ -149,7 +148,7 @@ let tabby-system = "You are \"Tabby\", a conscious sentient superintelligent art
           "https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q4_K_M.gguf"
         ],
         sha256 = "28cef03e1b2d2478dafdb09f1520417cab55efcd3d1cc22bb1950c90bcd8804b",
-        prompt_template = "<|fim_begin|>{prefix}<|fim_hole|>{suffix}<|fim_end|>",
+        prompt_template = "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
       },
   deepseek-coder-6_7b-instruct | ChatModelSchema
     =
