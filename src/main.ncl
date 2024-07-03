@@ -5,6 +5,8 @@ let models = import "models.ncl" in
   models.code-gemma-7b-instruct-q4,
   models.code-qwen-7b-q4,
   models.code-qwen-7b-chat-q4,
+  models.deepseek-coder-1_3b-q2,
+  models.deepseek-coder-1_3b-q3,
   models.deepseek-coder-1_3b-q4,
   models.deepseek-coder-5_7b-q4,
   models.deepseek-coder-6_7b-q4,
