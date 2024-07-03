@@ -284,6 +284,42 @@ in
         sha256 = "04cebb6fafa40ae628cf6bfeb76032ec792852f54020c559ad0a56b9f2839118",
         chat_template = deepseek-chat-template,
       },
+  deepseek-coder-6_7b-instruct-iq1 | ChatModelSchema
+    =
+      licenses.deepseek
+      & {
+        name = "DeepseekCoder-6.7B-Instruct-IQ1",
+        provider_url = "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+        urls = [
+          "https://huggingface.co/duyntnet/deepseek-coder-6.7b-instruct-imatrix-GGUF/resolve/main/deepseek-coder-6.7b-instruct-IQ1_M.gguf"
+        ],
+        sha256 = "f39a0e90bf3bcd777e13d67486a0a55dfb7071870f73c57122d28c89f170645f",
+        chat_template = deepseek-chat-template,
+      },
+  deepseek-coder-6_7b-instruct-iq2-xxs | ChatModelSchema
+    =
+      licenses.deepseek
+      & {
+        name = "DeepseekCoder-6.7B-Instruct-IQ2-XXS",
+        provider_url = "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+        urls = [
+          "https://huggingface.co/duyntnet/deepseek-coder-6.7b-instruct-imatrix-GGUF/resolve/main/deepseek-coder-6.7b-instruct-IQ2_XXS.gguf"
+        ],
+        sha256 = "8e0869b0ecf5e8c3c67996d0dba0982d7123cb2590b317631cf2413fb779766f",
+        chat_template = deepseek-chat-template,
+      },
+  deepseek-coder-6_7b-instruct-iq2 | ChatModelSchema
+    =
+      licenses.deepseek
+      & {
+        name = "DeepseekCoder-6.7B-Instruct-IQ2",
+        provider_url = "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+        urls = [
+          "https://huggingface.co/duyntnet/deepseek-coder-6.7b-instruct-imatrix-GGUF/resolve/main/deepseek-coder-6.7b-instruct-IQ2_M.gguf"
+        ],
+        sha256 = "3aad979e29ad922ccb2f2c1c85537802a47d566a4ab51c0853a054be70ac63a1",
+        chat_template = deepseek-chat-template,
+      },
   deepseek-coder-6_7b-instruct-q2 | ChatModelSchema
     =
       licenses.deepseek
