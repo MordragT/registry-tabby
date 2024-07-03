@@ -134,6 +134,28 @@
   {
     "license_name": "Deepseek License",
     "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "name": "DeepseekCoder-5.7B-Q2",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-base",
+    "sha256": "0620d43b30e897ba7d6f3b6d958fdff0ab7601fc8475ff20ed970c5846ab0d81",
+    "urls": [
+      "https://huggingface.co/TheBloke/deepseek-coder-5.7bmqa-base-GGUF/resolve/main/deepseek-coder-5.7bmqa-base.Q2_K.gguf"
+    ]
+  },
+  {
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "name": "DeepseekCoder-5.7B-Q3",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-base",
+    "sha256": "554ef635a692bac723bdf2fb392790a63b51fe2b8dd281a1eefa1e226750271f",
+    "urls": [
+      "https://huggingface.co/TheBloke/deepseek-coder-5.7bmqa-base-GGUF/resolve/main/deepseek-coder-5.7bmqa-base.Q3_K_M.gguf"
+    ]
+  },
+  {
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
     "name": "DeepseekCoder-5.7B-Q4",
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
     "provider_url": "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-base",

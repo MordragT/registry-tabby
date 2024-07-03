@@ -200,6 +200,30 @@ in
         sha256 = "192e2d05da6568a782d7d6b74eeaa1dd4e477ac2bda4f2c9835642f3a4c894f0",
         prompt_template = "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
       },
+  deepseek-coder-5_7b-q2 | CompletionModelSchema
+    =
+      licenses.deepseek
+      & {
+        name = "DeepseekCoder-5.7B-Q2",
+        provider_url = "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-base",
+        urls = [
+          "https://huggingface.co/TheBloke/deepseek-coder-5.7bmqa-base-GGUF/resolve/main/deepseek-coder-5.7bmqa-base.Q2_K.gguf"
+        ],
+        sha256 = "0620d43b30e897ba7d6f3b6d958fdff0ab7601fc8475ff20ed970c5846ab0d81",
+        prompt_template = "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+      },
+  deepseek-coder-5_7b-q3 | CompletionModelSchema
+    =
+      licenses.deepseek
+      & {
+        name = "DeepseekCoder-5.7B-Q3",
+        provider_url = "https://huggingface.co/deepseek-ai/deepseek-coder-5.7bmqa-base",
+        urls = [
+          "https://huggingface.co/TheBloke/deepseek-coder-5.7bmqa-base-GGUF/resolve/main/deepseek-coder-5.7bmqa-base.Q3_K_M.gguf"
+        ],
+        sha256 = "554ef635a692bac723bdf2fb392790a63b51fe2b8dd281a1eefa1e226750271f",
+        prompt_template = "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+      },
   deepseek-coder-5_7b-q4 | CompletionModelSchema
     =
       licenses.deepseek
