@@ -26,7 +26,7 @@ Completion and Chat models for **Tabby**
 
 ```toml
 # /etc/tabby/config.toml
-[mode.chat.local]
+[model.chat.local]
 model_id = "MordragT/<model>"
 
 [model.completion.local]
