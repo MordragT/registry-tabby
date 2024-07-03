@@ -7,6 +7,7 @@ let models = import "models.ncl" in
   models.code-qwen-7b-chat,
   models.deepseek-coder-1_3b,
   models.deepseek-coder-1_3b-instruct,
+  models.deepseek-coder-5_7b,
   models.deepseek-coder-6_7b,
   models.deepseek-coder-6_7b-instruct,
 ]

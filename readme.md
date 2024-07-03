@@ -27,6 +27,7 @@ Completion and Chat models for **Tabby**
 | MordragT/CodeGemma-7B | Q4-K-M | 5.32GB |
 | MordragT/CodeQwen-7B | Q4-K-M | 4.74GB |
 | MordragT/DeepseekCoder-1.3B | Q4-K-M | 874MB |
+| MordragT/DeekseekCoder-5.7B | Q4-K-M | 3.43GB |
 | MordragT/DeepseekCoder-6.7B | Q4-K-M | 4.08GB |
 
 ## Usage
